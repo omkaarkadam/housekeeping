@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Background styling to match the Home page */
+        body {
+            background-image: url('image.jpg'); /* Path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Light background to make text readable */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        .about-section {
+            margin-top: 30px;
+        }
+        .about-section img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+        }
+        .footer-icons i {
+            font-size: 20px;
+            color: white;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .footer-icons i:hover {
+            color: #007bff; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Technology and Housekeeping</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <div class="container about-section">
+        <h1 class="text-center">About Us</h1>
+        <p class="text-center">Our housekeeping services are dedicated to keeping your space spotless and comfortable.</p>
+        
+        <div class="row mt-4">
+            <!-- Image Column -->
+            <div class="col-md-4">
+                <img src="image3.jfif" alt="Technology in Housekeeping">
+            </div>
+            
+            <!-- Text Column -->
+            <div class="col-md-8">
+                <h3>Technology in Housekeeping</h3>
+                <p>
+                    The use of technology in housekeeping has transformed traditional cleaning practices, making them more efficient and effective. Modern tools such as robotic vacuum cleaners, automated scheduling apps, and eco-friendly cleaning products help us deliver top-notch services.
+                </p>
+                <p>
+                    From managing bookings online to using data-driven insights for optimized cleaning schedules, technology allows us to meet clients' needs with precision and convenience. Our team is trained to use these innovations, ensuring your home or office stays clean and safe.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Housekeeping Services | All Rights Reserved</p>
+        <!-- Social Media Icons -->
+        <div class="footer-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>    
+</body>
+</html>
